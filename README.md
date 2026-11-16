@@ -45,33 +45,4 @@ pip freeze > requirements.txt
 
 > Do **not** `pip install logging`. `logging` is part of the standard library.
 > The PyPI package of that name is an obsolete third-party project and can break things.
-
-## How each topic is written
-
-- **Concept**: what it is and why you care
-- **Syntax and examples**: small runnable snippets
-- **Practical**: a realistic mini-script you can run and extend
-- **Pitfalls**: mistakes that cost people hours
-
-## Conventions
-
-- `$` means a shell prompt, `>>>` means the Python REPL
-- Code assumes Python 3.10+ (uses `X | None` types, `match`)
-- Every script that does something destructive has a `--dry-run` style safety
-  or is clearly labelled. Test in a sandbox first.
-
-## Safety note
-
-`scapy` (packet crafting), `paramiko` (SSH) and `subprocess` can affect real systems.
-Only run them against machines and networks you own or are authorized to test.
-
-## Official references
-
-- Python docs: https://docs.python.org/3/
-- Python Packaging guide: https://packaging.python.org/
-- psutil: https://github.com/giampaolo/psutil
-- boto3: https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
-- paramiko: https://www.paramiko.org/
-- PyYAML: https://pyyaml.org/wiki/PyYAMLDocumentation
-- pandas: https://pandas.pydata.org/
-- scapy: https://github.com/secdev/scapy/
+ 
