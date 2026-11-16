@@ -1,5 +1,6 @@
 . Linux and Server Automation
 #	Real-world interview question
+``python
 1	Python script se Linux server ka CPU utilization kaise check karoge?
 2	Disk usage 80% se above hone par alert kaise generate karoge?
 3	Server par memory utilization monitor kaise karoge?
@@ -10,7 +11,7 @@
 8	Server reboot hua hai ya nahi, Python se kaise identify karoge?
 9	Python se disk, RAM aur CPU ka health report JSON mein kaise generate karoge?
 10	Agar monitoring script fail ho jaaye toh uska error log kaise maintain karoge?
-
+```
 Useful Python modules: os, subprocess, psutil, logging, datetime, paramiko.
 2. AWS Cloud Automation
 #	Real-world interview question
