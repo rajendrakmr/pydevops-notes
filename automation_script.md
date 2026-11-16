@@ -1,6 +1,6 @@
 . Linux and Server Automation
 #	Real-world interview question
-``python
+```python
 1	Python script se Linux server ka CPU utilization kaise check karoge?
 2	Disk usage 80% se above hone par alert kaise generate karoge?
 3	Server par memory utilization monitor kaise karoge?
